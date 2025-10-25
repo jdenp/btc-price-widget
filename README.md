@@ -3,14 +3,14 @@
 A small, always-on-top **BTC/USD price ticker** built with Python and Tkinter.  
 Displays the current Bitcoin price from Binance in a floating, draggable widget.
 
+<img width="366" height="45" alt="image" src="https://github.com/user-attachments/assets/40c56cc2-025d-4ee6-a250-4501443a2b43" />
 
----
 
 ## Features
 
 - Fetches live BTC/USD prices from Binance.
 - Updates automatically every second (configurable).
-- Floating, always-on-top, and semi-transparent window.
+- Floating, always-on-top, semi-transparent window.
 - Color-coded price changes:
   - **Green**: price increased or unchanged.
   - **Red**: price decreased.
@@ -18,7 +18,6 @@ Displays the current Bitcoin price from Binance in a floating, draggable widget.
 - Right-click to close the widget.
 - Runs as a `.pyw` with **no console window**.
 
----
 
 ## Setup
 
@@ -32,7 +31,6 @@ To remove, `uv remove`.
 
 Entry point is `src/main.py` -> `uv run src/main.py`
 
----
 
 ### Options
 
@@ -41,18 +39,11 @@ You can configure:
 - `refresh_interval` — how often the price updates (in seconds).
 - `transparency` — window transparency (0 = fully transparent, 1 = opaque).
 
----
 
 ## Controls
 
 - **Left-click & drag** → move the widget.
 - **Right-click** → close the widget.
 
----
-
-## Notes
-
-- If running as a `.pyw` (no console), network errors will show a **popup messagebox** instead of printing to console.
-- Designed for **lightweight, always-on-top monitoring** of Bitcoin price.
 
 ---
